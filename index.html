@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>Job offer </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel='stylesheet' type='text/css' href="css/bootstrap.css"/>
+	<head>
+		<meta charset="utf-8">
+                    <title>SEDAR WAVE TEST </title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+                <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-production.css">
+                <link rel='stylesheet' type='text/css' href="css/bootstrap.css"/>
         <link rel='stylesheet' type='text/css' href="css/font-awesome.css"/>
         <link rel='stylesheet' type='text/css' href="css/animate.css"/>
         <link rel='stylesheet' type='text/css' href="css/job_offer_style.css"/>
-    </head>
-    <body>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-        
-        <header class="container wow fadeInUp" style="padding-left: 0px;padding-right: 0px;" >
+                <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<script src="js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+		
+
+  
+  
+
+
+
+
+
+
+
+ 
+
+    </script>
+
+        </head>
+        <body id="login" class="animated " >
+            <header class="container wow fadeInUp" style="padding-left: 0px;padding-right: 0px;" >
             <div class="col-lg-4 col-sm-4">
                 <img class="img-responsive" src="img/logo.png" alt="logo" style="padding:10px" />
             </div>
@@ -63,7 +83,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1s" class="wow block fadeInRight ">
                         <center>
-                            <a onclick="e_paper()">
+                            <a onclick="e_paper()" target="_blank" >
                                 <img class="img-responsive" src="img/E-paper.png" />
                             </a>
                         </center>
@@ -72,7 +92,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1.3s" class="wow block fadeInRight " >
                         <center>
-                            <a onclick="paid()">
+                            <a onclick="paid()" target="_blank" >
                                 <img class="img-responsive" src="img/paid-epaper.png" />
                             </a>
                         </center>
@@ -81,8 +101,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1.6s" class="wow block fadeInRight " >
                         <center>
-                            <a onclick="tamil_jobs()">
-                                <img class="img-responsive" src="img/tamil-job.png" />
+                             <a onclick="newspaper()" target="_blank" >
+                                <img class="img-responsive" src="img/newspaper.png" />
                             </a>
                         </center>
                     </div>
@@ -90,8 +110,8 @@
                  <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1.9s" class="wow block fadeInRight " >
                         <center>
-                            <a onclick="pondy_jobs()">
-                                <img class="img-responsive" src="img/pondy-job.png" />
+                            <a onclick="tamil_jobs()" target="_blank" >
+                                <img class="img-responsive" src="img/tamil-job.png" />
                             </a>
                         <center>
                     </div>
@@ -103,8 +123,8 @@
                 <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1s" class="block wow fadeInRight " >
                         <center>
-                            <a onclick="newspaper()">
-                                <img class="img-responsive" src="img/newspaper.png" />
+                            <a onclick="pondy_jobs()" target="_blank" >
+                                <img class="img-responsive" src="img/pondy-job.png" />
                             </a>
                         </center>
                     </div>  
@@ -112,7 +132,7 @@
                 <div class="col-md-3 col-sm-6">
                     <div data-wow-delay="1.3s" class="block wow fadeInRight " >
                         <center>
-                            <a onclick="pdfdownloader()">
+                            <a onclick="download()" target="_blank" >
                                 <img class="img-responsive" src="img/forlatest-issu.png" />
                             </a>
                         </center>
@@ -130,7 +150,7 @@
                         <center>
                             <script type="text/javascript" src="http://widget.supercounters.com/flag.js"></script>
                             <script type="text/javascript">sc_flag(617178,"FFFFFF","000000","ffffff",3,12,0,0)</script><br>
-                            <noscript><a href="http://www.supercounters.com/">Flag Counter</a></noscript>
+                            <noscript><a href="http://www.supercounters.com/" target="_blank" >Flag Counter</a></noscript>
                         </center>
                     </div>
                 </div>
@@ -153,6 +173,10 @@
                 window.open("http://www.readwhere.com/publication/6313/JOB-OFFER","_blank", "location=no");
             }
             
+            function newspaper(){
+                window.open("http://joboffer.co.in/Subscription%20Form%20Rs%2020.pdf","_system", "location=yes");
+            }
+            
             function tamil_jobs(){
                 window.open("http://www.tamilnadujobs.in/","_blank", "location=no");
             }
@@ -161,20 +185,36 @@
                 window.open("http://www.puducherryjobs.in/","_blank", "location=no");
             }
             
-            function newspaper(){
-                window.open("http://www.readwhere.com/publication/6313/JOB-OFFER","_blank", "location=no");
+            function download(){
+                window.open("http://joboffer.co.in/jo_classi.Pdf", '_system', 'location=yes');
+               //http://joboffer.co.in/demo/jo_classi.Pdf
             }
-            
-            function pdfdownloader(){
-                window.open("http://www.readwhere.com/publication/6313/JOB-OFFER","_blank", "location=no");
-            }
-            
-            
             
         </script>
         <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/wow.min.js"></script>
         <script type="text/javascript" src="js/cordova-2.9.0.js"> </script>
-    </body>
+<script>
+
+var user_name=localStorage.getItem("user_name");
+if(user_name!=null){
+	window.open('scan.html', '_blank','location=no');
+
+}
+
+
+
+</script>
+
+
+<script type="text/javascript" src="cordova.js"></script>
+<!--<script type="text/javascript" src="jquery.md5.js"></script>-->
+<script type="text/javascript" src="js/md5.js"></script>
+<script type="text/javascript" src="barcodescanner.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/function.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/tablerowcount.js"></script>
+        </body>
 </html>

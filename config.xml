@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.ryanw.barcodedemo"
+        id        = "com.apn.developer.joboffer"
         version   = "2.0.0">
-    <name>JobOffer NewsPaper</name>
+    <name>JobOffer Newspaper</name>
 
     <description>
        NEWSPAPER FOR JOBS IN TAMILNADU AND PUDUCHERRY ON EVERY SATURDAY'S
@@ -27,7 +27,7 @@
        <param name="domain" value="http://debug.phonegap.com"/>
        <param name="key" value="willoughby"/>
     </feature>
-     
+     <access origin="*"/>
 	 
 	<preference name="SplashScreen" value="splash" />
     <preference name="SplashScreenDelay" value="3000" /> 
